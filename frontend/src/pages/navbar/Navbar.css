@@ -1,0 +1,27 @@
+.Navbar {
+  background-color: #fff;
+  color: #454e56;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 4em;
+  z-index: 999;
+  font-size: 1.5em;
+  box-shadow: 4px 0 10px -3px #c1c1c1;
+  border-bottom: 1px solid #dbe1e8;
+}
+
+.Navbar__Item {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 60px;
+  height: 100%;
+}
+
+.Navbar__Link {
+  text-decoration: none;
+  color: #454e56;
+  height: inherit;
+  display: flex;
+  align-items: center;
+}

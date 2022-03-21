@@ -1,0 +1,1 @@
+exports.ArticleRouter = require('./article.route') 
